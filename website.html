@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<script defer src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+		<script defer src="script.js"></script>
+		<link rel="icon" href="images/beijingicon.webp" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Beijing Explorer</title>
+		<script src="https://kit.fontawesome.com/cd729aa1a9.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+	<body>
+		<section class="header">
+				<nav>
+                    <div class="nav-links" id="navLinks">
+						<i class="fa-solid fa-xmark fa-2x" title="Close Menu" onclick="hideMenu()"></i>
+					<ul>
+						<a id="icon" href="website.html"><i class="fa-solid fa-house fa-2x"></i></a>
+						<li><a class="categories" href="website.html">HOME</a></li>
+						<li><a class="categories" href="#destination">DESTINATION</a></li>
+						<li><a class="categories" href="#food">FOOD</a></li>
+						<li><a class="categories"href="#campus">CAMPUS</a></li>
+						<li><a class="categories" href="#gallery">GALLERY</a></li>
+						<li><a class="categories" href="#contact1">CONTACT</a></li>
+					</ul>
+                    </div>
+					<i class="fa-solid fa-bars fa-2x" title="Open Menu" onclick="showMenu()"></i>
+				</nav>
+                <div class="text-box">
+                    <h1>Discover Beijing</h1><hr>
+                    <p>Experience the rich history, iconic landmarks, and vibrant culture of China's capital city.</p>
+                    <a href="#about" class="hero-btn"> EXPLORE BEIJING >></a>
+                </div>
+		</section>
+
+		<!-- -------------DESTINATION SECTION----------------- -->
+		<section class="whole">
+		<section class="destination fade-in" id="destination">
+			<div class="text-sec-2">
+			<h4 id="feature-dest">FEATURED DESTINATIONS</h4>
+			<hr id="hrdest">
+			
+			<h1>Beijing's Iconic Landmarks</h1>
+			<p>Step into the heart of China's rich history through world-famous monuments, imperial palaces, and stunning architectural masterpieces.</p>
+			<a href="https://au.trip.com/toplist/tripbest/beijing-best-things-to-do-100001406540/?locale=en-AU&curr=AUD" target="_blank" class="hero-btn">VIEW ALL DESTINATIONS</a>
+			</div>
+			<div class="images">
+		<a href="https://en.wikipedia.org/wiki/Great_Wall_of_China" target="_blank">
+			<div class="card">
+				<img  src="images/Great-Wall-China.webp" alt="Great Wall of China">
+				<h3>Great Wall</h3>
+				<p>One of the world's most famous landmarks, built to protect ancient China and now a UNESCO World Heritage Site.</p>
+				</div>
+		</a>
+			
+
+
+		<a href="https://en.wikipedia.org/wiki/Forbidden_City" target="_blank">
+			<div class="card">
+				<img src="images/forbidden-city-feature-onsite.jpg" alt="Forbidden City">
+				<h3>Forbidden City</h3>
+				<p>A former imperial palace that served Chinese emperors for over 500 years and is now a UNESCO World Heritage Site.</p>
+		
+			</div>
+			</a>
+
+			<a href="https://en.wikipedia.org/wiki/Summer_Palace" target="_blank">
+			<div class="card">
+				<img src="images/Summer-Palace-Beijing-Hall-of-Dispelling-Clouds-4.jpg" alt="Summer Palace">
+				<h3>Summer Palace</h3>
+				<p>A stunning imperial garden featuring beautiful lakes, traditional architecture, and peaceful landscapes.</p>
+			</div>
+		</a>
+
+
+		<a href="https://en.wikipedia.org/wiki/Temple_of_Heaven" target="_blank">
+			<div class="card">
+				<img  src="images/Temple-Of-Heaven-Feature.webp" alt="Temple of Heaven">
+				<h3>The Temple of Heaven</h3>
+				<p>Chinese emperors used it to pray here for good harvests. It is famous for its beautiful architecture and cultural importance.</p>
+			</div>
+		</a>
+			
+
+
+				<a href="https://en.wikipedia.org/wiki/Palace_Museum" target="_blank">
+			<div class="card">
+				<img  src="images/palacemuseum.webp" alt="Palace Museum">
+				<h3>The Palace Museum</h3>
+				<p>The Palace Museum is a historic Beijing museum, once an imperial palace, displaying ancient Chinese artworks and treasures.</p>
+			</div>
+		</a>
+
+			<a href="https://en.wikipedia.org/wiki/Jingshan_Park" target="_blank">
+			<div class="card">
+				<img  src="images/jingshan-park-jingshan.jpg" alt="Jingshan Park">
+				<h3>Jingshan Park</h3>
+				<p>Jingshan Park is a historic park in Beijing known for its beautiful views of the Forbidden City and the city skyline.</p>
+			</div>
+		</a>
+
+
+		<a href="https://en.wikipedia.org/wiki/Beihai_Park" target="_blank">
+			<div class="card">
+				<img src="images/beihai.jpg" alt="Beihai Park">
+				<h3>Beihai Park</h3>
+				<p>Beihai Park is one of Beijing's oldest imperial gardens, famous for its peaceful lake, White Dagoba, and beautiful scenery.</p>
+		
+			</div>
+			</a>
+
+			
+		<a href="https://www.gubeiwatertown.com/Basic%20information/gubei-water-town" target="_blank">
+			<div class="card">
+				<img src="images/watertown.jpg" alt="Gubei Water Town">
+				<h3>Gubei Water Town</h3>
+				<p>Gubei Water Town is a charming town featuring traditional architecture, canals, and beautiful night views near the Great Wall.</p>
+		
+			</div>
+			</a>
+		</section>
+	
+
+		<section class="about fade-in" id="about">
+			<div class="about-text">
+				<h4 id="about-beijing">ABOUT BEIJING</h4>
+				<hr id="hrabout">
+				<h1>The Heart of China</h1>
+				<p>Beijing is the capital of China and one of the world's oldest cities, with a history spanning over 3,000 years. Renowned for its rich cultural heritage, it is home to iconic landmarks such as the Great Wall, the Forbidden City, and the Temple of Heaven. Alongside its ancient history, Beijing is also a modern metropolis with impressive architecture, vibrant shopping districts, beautiful parks, and world-famous cuisine. Whether you're exploring historic palaces, tasting authentic Peking Duck, or experiencing the city's dynamic atmosphere, Beijing offers a unique journey where tradition and innovation come together.</p>
+				
+			</div>
+			<div id="aboutimg">
+				<a href="https://en.wikipedia.org/wiki/Beijing" target="_blank" title="More About Bejing">
+					    <video autoplay muted loop playsinline>
+        				<source src="images/57243-484331079.mp4" type="video/mp4">
+       
+    					</video>
+						</a>
+		
+			</div>
+		</section>
+
+		<section class="food-container fade-in" id="food">
+				<h4>FOODS IN BEIJING</h4>
+				<hr>
+				<h1>Must-Try Local Dishes</h1>
+				<p id="subtitle">Explore Beijing's most iconic dishes and uncover the stories behind every bite.</p>
+			<div class="food-gallery">
+
+				<div class="food-card">
+				<img src="images/duckdechine17.jpg" alt="Peking Duck">
+				<h3>Peking Duck</h3>
+
+				<div class="overlay">
+					<p>Beijing's most iconic dish, Peking Duck is famous for its crispy golden skin and tender roasted meat. It is traditionally served with thin pancakes, hoisin sauce, cucumber, and scallions, creating a rich and flavorful dining experience.</p>
+				</div>
+
+				</div>
+
+				<div class="food-card">
+				<img src="images/baozi.jpg" alt="Baozi">
+				<h3>Baozi</h3>
+
+				<div class="overlay">
+					
+					<p>Baozi are soft, fluffy steamed buns filled with a variety of ingredients such as pork, vegetables, or sweet bean paste. They are commonly enjoyed as breakfast or a light meal throughout Beijing.</p>
+				</div>
+				</div>
+
+				<div class="food-card">
+				<img src="images/hotpot.jpg" alt="Hotpot">
+				<h3>Beijing's Hotpot</h3>
+
+				<div class="overlay">
+					
+					<p>Beijing Hot Pot is a communal dining experience where diners cook thin slices of meat, seafood, vegetables, and noodles in a simmering pot of flavorful broth. It's a warm and social meal often shared with family and friends.</p>
+				</div>
+				</div>
+
+				<div class="food-card">
+				<img src="images/jianbing.jpg" alt="Jianbing">
+				<h3>Jianbing</h3>
+				<div class="overlay">
+					
+					<p>Jianbing is one of Beijing's most popular street breakfasts. This crispy pancake is freshly cooked with egg, herbs, savory sauces, and a crunchy cracker, making it a quick and delicious meal on the go.</p>
+				</div>
+				</div>
+
+				<div class="food-card">
+				<img src="images/tanghulu.jpg" alt="Tanghulu">
+				<h3>Tanghulu</h3>
+				<div class="overlay">
+					
+					<p>Tanghulu is a traditional Chinese snack made by coating fresh fruit, usually hawthorn berries or strawberries, in a crisp layer of caramelized sugar. Its sweet and tangy flavor makes it a favorite treat during the colder months.</p>
+				</div>
+				</div>
+
+				<div class="food-card">
+				<img src="images/zhajiangmian.jpg" alt="Zhajiangmian">
+				<h3>Zhajiangmian</h3>
+				<div class="overlay">
+					
+					<p>Zhajiangmian is a beloved Beijing noodle dish made with thick wheat noodles, savory soybean paste, minced pork, and fresh vegetables.</p>
+				</div>
+				</div>
+
+				<div class="food-card">
+				<img src="images/ludagun-7cb3i8dptf.jpeg" alt="Lüdagun">
+				<h3>Lüdagun</h3>
+				<div class="overlay">
+					
+					<p>Lüdagun is a classic Beijing dessert made from glutinous rice rolls filled with sweet red bean paste and coated in fragrant roasted soybean flour. Its soft texture and nutty flavor have made it a local favorite for centuries.</p>
+				</div>
+				</div>
+
+				<div class="food-card">
+				<img src="images/aiwowo.jpg" alt="aiwowo">
+				<h3>Aiwowo</h3>
+				<div class="overlay">
+					
+					<p>Aiwowo is a traditional Beijing dessert made from glutinous rice dough filled with sesame, walnuts, peanuts, and dried fruit. Once served in the imperial palace, it remains a popular sweet treat today.</p>
+				</div>
+				</div>
+
+				<div class="food-card">
+				<img src="images/douzhi.jpg" alt="Douzhi">
+				<h3>Douzhi</h3>
+				<div class="overlay">
+					
+					<p>Douzhi is a unique fermented mung bean drink that has been enjoyed in Beijing for hundreds of years. Its distinctive sour taste may surprise first-time visitors, but it remains an important part of the city's culinary tradition.</p>
+				</div>
+				</div>
+
+			</div>
+		</section>
+		
+	<section class="campus fade-in" id="campus">
+			<h4>BEIJING'S CAMPUS</h4>
+			<hr>
+			<h1>Discover Beijing Universities</h1>
+			<p class="campus-subtitle"> Explore some of Beijing's most prestigious universities and the academic environments that shape future innovators.</p>
+			<div class="campus-container">
+
+												<div class="campus-card">
+					<img src="images/bit.jpg" alt="Beijing Institue of Technology">
+					<div class="campus-info">
+					<h2>Beijing Institute of Technology</h2>
+					<p>Beijing Institute of Technology is a leading science and engineering university in China, recognized for its strong focus on technology, automation, and advanced engineering. BIT combines academic knowledge with practical applications, preparing students to contribute to fields such as robotics, intelligent systems, and modern manufacturing.
+<hr class="hrcamp">
+				<b>Location:</b> 5 Zhongguancun South Street, Haidian District, Beijing, China<br>
+				<b>Founded:</b> 1940 <br>
+				<b>Top Majors:</b> Mechanical Engineering, Automation, Robotics, Aerospace Engineering, Vehicle Engineering, Information Technology</p>
+					<a href="https://english.bit.edu.cn/" target="_blank" class="hero-btn">Visit Website</a>
+				</div>
+				</div>
+
+				
+				<div class="campus-card">
+									<div class="campus-info">
+					<h2>Tsinghua University</h2>
+					<p>Tsinghua University is one of China’s most prestigious universities, known worldwide for its excellence in research, science, engineering, and innovation. Located in Beijing, it provides a world-class academic environment with advanced facilities and strong global connections, attracting talented students from around the world.
+<hr class="hrcamp">
+ 					<b>Location:</b> 30 Shuangqing Road, Haidian District, Beijing, China <br>
+					<b>Founded:</b> 1911<br>
+					<b>Top Majors:</b> Computer Science, Electrical Engineering, Mechanical Engineering, Artificial Intelligence, Architecture, Economics & Management</p>
+					<a href="https://www.tsinghua.edu.cn/en/" target="_blank" class="hero-btn">Visit Website</a>
+				</div>
+					<img src="images/Tsinghua_University.jpg" alt="Tsinghua University">
+					
+				</div>
+
+
+				<div class="campus-card">
+					<img src="images/peking.avif" alt="Peking University">
+					<div class="campus-info">
+					<h2>Peking University</h2>
+					<p>Peking University is one of China’s oldest and most respected universities, famous for its academic excellence, research achievements, and beautiful traditional campus. Located in Beijing, it offers a diverse learning environment with strong programs across sciences, humanities, social sciences, and technology.
+<hr class="hrcamp">
+					<b>Location:</b> 5 Yiheyuan Road, Haidian District, Beijing, China <br>
+					<b>Founded:</b> 1898 <br>
+					<b>Top Majors:</b> Economics, Computer Science, Medicine, Physics, Law, International Relations, Chinese Language & Literature</p>
+					<a href="https://english.pku.edu.cn/" target="_blank" class="hero-btn">Visit Website</a>
+				</div>
+				</div>
+
+
+								<div class="campus-card">
+									<div class="campus-info">
+					<h2>University of Science and Technology Beijing</h2>
+					<p>University of Science and Technology Beijing is a leading engineering university with strong research achievements in materials, technology, and industrial development. It plays an important role in China’s engineering and manufacturing sectors.
+<hr class="hrcamp">
+ 					<b>Location:</b> 30 Xueyuan Road, Haidian District, Beijing, China <br>
+					<b>Founded:</b> 1952<br>
+					<b>Top Majors:</b> Materials Science, Metallurgical Engineering, Mechanical Engineering, Automation, Computer Science</p>
+					<a href="https://iscen.ustb.edu.cn/" target="_blank" class="hero-btn">Visit Website</a>
+				</div>
+					<img src="images/ustb.jpg" alt="University of Science and Technology Beijing">
+					
+				</div>
+
+							<div class="campus-card">
+					<img src="images/bnu.webp" alt="Beijing Normal University">
+					<div class="campus-info">
+					<h2>Beijing Normal University</h2>
+					<p>Beijing Normal University is a highly respected university known for education, psychology, and humanities. It has a strong academic reputation and contributes significantly to research and social development.
+					<hr class="hrcamp">
+						<b>Location:</b> 19 Xinjiekouwai Street, Haidian District, Beijing, China <br>
+					<b>Founded:</b> 1902 <br>
+					<b>Top Majors:</b> Education, Psychology, Chinese Language & Literature, Geography, Environmental Science</p>
+					<a href="https://english.bnu.edu.cn/" target="_blank" class="hero-btn">Visit Website</a>
+				</div>
+				</div>
+				
+				
+			</div>
+		</section>
+		
+
+		
+
+		<section  class="gallery fade-in" id="gallery">
+			<h4>GALLERY</h4>
+			<hr>
+			<div class="gallery1">
+			<h1>Memories of Beijing</h1>
+			<p class="gallery-subtitle">
+				This gallery is a growing collection of memorable moments in Beijing, featuring iconic landmarks and photographs that celebrate the city's unique charm.
+			</p>
+
+			    <div class="gallery-container">
+
+					<div class="polaroid">
+    					<img src="images/images1.jpg" alt="My Memories">
+    				</div>
+
+					<div class="polaroid">
+    					<img src="images/images2.jpg" alt="My Memories">
+    				</div>
+
+					<div class="polaroid">
+    					<img src="images/rafik-wahba-LkyYLdL3WxE-unsplash.jpg" alt="My Memories">
+    				</div>
+
+					<div class="polaroid">
+    					<img src="images/images3.jpg" alt="My Memories">
+    				</div>
+
+					<div class="polaroid">
+    					<img src="images/images4.jpg" alt="My Memories">
+    				</div>
+
+					
+					<div class="polaroid">
+    					<img src="images/A Walk Through The Most Beautiful Beijing Hutongs.jpg" alt="My Memories">
+    				</div>
+
+					<div class="polaroid">
+    					<img src="images/Beijing !!  🇨🇳.jpg" alt="My Memories">
+    				</div>
+
+					<div class="polaroid">
+    					<img src="images/beijing2.jpg" alt="My Memories">
+    				</div>
+
+					<div class="polaroid">
+    					<img src="images/Wangfujing Avenue, Beijing.jpg" alt="My Memories">
+    				</div>
+
+					<div class="polaroid">
+    					<img src="images/qianmen street, beijing china.jpg" alt="My Memories">
+    				</div>
+
+					<div class="polaroid">
+    					<img src="images/北京の秋.jpg" alt="My Memories">
+    				</div>
+
+					<div class="polaroid">
+    					<img src="images/Welcome to Beijing 🇨🇳.jpg" alt="My Memories">
+    				</div>
+
+				
+
+			
+					</div>
+		</section>
+
+		<section class="contact1 fade-in" id="contact1">
+			<h4>CONTACT US</h4><hr>
+			<div class="contact">
+			<h1>Connect With Us!</h1>
+			<p>Have Questions or feedback? <br>We'd love to hear from you!</p>
+				<form class="contact-form" id="contact-form">
+					<label for="name">Name:</label>
+					<input name="name" type="text" id="name" placeholder="Full Name" minlength="1" title="Please enter your Full Name" required>
+				
+					<label for="email">Email:</label>
+					<input 
+						name="email" 
+						type="text" 
+						id="email" 
+						placeholder="Email Address"   
+						title="Please enter a Gmail address."  
+						pattern=".+@gmail\.com" 
+						required>
+					
+					<label for="phone">Phone Number:</label>
+					<input name="phone" type="tel" pattern="^\+[0-9]{1,3}\s[0-9]+$" id="phone" placeholder="+xx xxxxxxxxxx" title="Please enter your Phone Number" required>
+
+					<label for="birthday">Birthdate:</label>
+					<input name="birthday" type="date" id="birthday" required>
+
+
+
+					<label for="country">Country:</label>
+					<input name="country" type="text" id="country" placeholder="Country" title="Please enter your Country" required>
+
+					<label for="message">Your Feedback:</label>
+					<textarea name="message" id="message"  maxlength="300"></textarea>
+
+					<button id="submit" type="submit">Submit Form</button>
+				</form>
+				</div>
+		</section>
+</section>
+
+		<footer>
+			<div class="footer-content">
+				<hr>
+				<h2>BEIJING EXPLORER</h2>
+				<p>Thank you for visiting Beijing Explorer. We hope this website has inspired you to discover the beauty, culture, and history of Beijing.</p>
+				<div class="footer-contact">
+				<p><i class="fa-solid fa-phone"></i> +62 89509370909</p>
+				<p><i class="fa-solid fa-envelope"></i> beijingexplorer2026@gmail.com</p>
+				</div>
+				<a href="https://www.instagram.com/cocomattw?igsh=bGl3cGt0YTg5MzNm" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
+				<a href="https://line.me/ti/p/~matthewrg" target="_blank"><i class="fa-brands fa-line fa-2x"></i></a>
+				<a href="images/wechat.jpeg" target="_blank"><i class="fa-brands fa-weixin fa-2x"></i></a>
+				<hr>
+				<p class="copyright">&copy; Beijing Explorer • Designed & Developed by Matthew Ricardo Gomulja</p>
+				
+
+
+				
+			</div>
+
+		</footer>
+
+
+
+	</body>
+</html>
+	
